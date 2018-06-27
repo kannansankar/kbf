@@ -1,0 +1,60 @@
+# ========================= KNOWLEDGE-BASED FREE ENERGY (KBF) ====================
+# This Software and to whom the Software is furnished to, are subject to
+# the following conditions:
+#   
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+# 
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+# THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+# LIABILITY, WHETHER IN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+# OUT OF OR IN CONECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+# THE SOFTWARE.
+# ----------------------------------------------------------------------------------
+# --------------- Brief summary of what this sofware does --------------------------
+# ----------------------------------------------------------------------------------
+# The current program is an implementation of the knowledge-based free energy functions
+# described in the following publication:-
+
+# Sankar K et al. (2017) Knowledge-based entropies improve the identification of native 
+# protein structures. PNAS 114(11):2928-2933.
+#  
+# It takes as input a set of protein structure files in PDB format and returns a set of
+# excel files containing the results of running the KBF calculations.
+# ------------------------------------------------------------------------------------
+
+Copyright (c) 2017 Kannan Sankar, Kejue Jia & Robert L. Jernigan
+
+# ========================= INSTALLATON INSTRUCTIONS ========================= 
+
+
+1. Install MATLAB Runtime (MCR) verison 2015b (It is important to use this verison) for 
+   Linux 64-bit: https://www.mathworks.com/products/compiler/matlab-runtime.html
+
+2. Set the environmental variable LD_LIRARY_PATH to the location where MCR is installed.
+   By default the location is '/usr/local/MATLAB/MATLAB_Runtime/v90'. 
+   So then it would be (set it in .basrc/.bash_profile itself):-
+
+	> export LD_LIBRARY_PATH=/usr/local/MATLAB/MATLAB_Runtime/v90
+	
+3. Download the source code folder 'kbf'. All computations should be performed in this 
+   folder.
+
+
+# ========================= KBF CALCULATION ========================= 
+
+In order to calculate KBF for a set of structure(s):-
+
+1. Go into the 'kbf folder.
+   > cd </path/to/kbf/folder/>
+   
+2. In the 'kbf' folder, clean any previous runs' files by running clean.sh
+    > sh clean.sh
+
+3. Copy the PDB files (that you need to compute KBF on) into the 'kbf' folder 
+   (do not place it in  any subfolders).
+
+4. Go into the 'kbf' folder & simply execute kbf_linux.sh and O/P files will be generated.
+   > sh kbf_linux.sh

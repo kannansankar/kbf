@@ -1,0 +1,30 @@
+kjia@iastate.edu
+Wed_Feb_26_04_21_20_2014
+pka_pdbs.zip
+all 0
+four-body 1
+generalFour 1
+short-range 1
+Qa 0
+Qm 0
+Qp 0
+HLPL 0
+SKOb 0
+SKOa 0
+SKJG 0
+MJPL 0
+MJ3h 0
+MJ2h 0
+TS 0
+BT 0
+BFKV 0
+TD 0
+TEl 0
+TEs 0
+RO 0
+MS 0
+MJ1 0
+MJ3 0
+GKS 0
+VD 0
+MSBM 0

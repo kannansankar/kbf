@@ -1,0 +1,9 @@
+Fractional	1
+Normalized	1
+corrP	1
+corrS	1
+corrK	1
+rankN	1
+bdRMSD	1
+bdZscore	1
+CG	0
