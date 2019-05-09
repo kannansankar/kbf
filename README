@@ -39,8 +39,12 @@ Copyright (c) 2017 Kannan Sankar, Kejue Jia & Robert L. Jernigan
 
 	> export LD_LIBRARY_PATH=/usr/local/MATLAB/MATLAB_Runtime/v90
 	
-3. Download the source code folder 'kbf'. All computations should be performed in this 
+3. Download and install 'NACCESS' software from: http://wolf.bms.umist.ac.uk/naccess/
+	
+4. Download the source code folder 'kbf'. All computations should be performed in this 
    folder.
+   
+5. Copy and place all naccess related files into the main 'kbf' folder.
 
 
 # ========================= KBF CALCULATION ========================= 
